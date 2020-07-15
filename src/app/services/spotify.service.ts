@@ -4,8 +4,6 @@ import { map, switchMap } from "rxjs/operators";
 import { Observable } from "rxjs";
 import { from } from "rxjs";
 
-import { Component, OnInit } from "@angular/core";
-
 @Injectable({
   providedIn: "root",
 })
@@ -39,9 +37,6 @@ export class SpotifyService {
     return this.getToken().pipe(
       switchMap((token) => {
         const url = "https://api.spotify.com/v1/" + query;
-
-        console.log("token", token);
-
         const headers = new HttpHeaders({
           Authorization: "Bearer  " + token["access_token"],
         });

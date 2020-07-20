@@ -88,7 +88,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-root"]],
       decls: 3,
       vars: 0,
-      consts: [[1, "container", "m-5"]],
+      consts: [[1, "container", "mt-3"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
@@ -512,7 +512,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-artista"]],
       decls: 29,
       vars: 7,
-      consts: [["class", "m-5", 4, "ngIf"], [1, "row", "animated", "fadeIn"], [1, "col-2"], [1, "img-thumbnail", "img-circle", 3, "src"], [1, "col"], ["target", "_blank", 3, "href"], [1, "col-4", "text-right"], ["routerLink", "/search", 1, "btn", "btn-outline-danger"], [1, "row", "m-5"], [1, "table"], [4, "ngFor", "ngForOf"], [1, "m-5"], [1, "img-thumb", 3, "src"], ["width", "300", "height", "80", "frameborder", "0", "allowtransparency", "true", "allow", "encrypted-media", 3, "src"]],
+      consts: [["class", "mt-3", 4, "ngIf"], [1, "row", "animated", "fadeIn"], [1, "col-2"], [1, "img-thumbnail", "img-circle", 3, "src"], [1, "col"], ["target", "_blank", 3, "href"], [1, "col-4", "text-right"], ["routerLink", "/search", 1, "btn", "btn-outline-danger"], [1, "row", "mt-3"], [1, "table"], [4, "ngFor", "ngForOf"], [1, "mt-3"], [1, "img-thumb", 3, "src"], ["width", "300", "height", "80", "frameborder", "0", "allowtransparency", "true", "allow", "encrypted-media", 3, "src"]],
       template: function ArtistaComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ArtistaComponent_app_loading_0_Template, 1, 0, "app-loading", 0);
@@ -928,7 +928,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-search"]],
       decls: 6,
       vars: 2,
-      consts: [[1, "row"], [1, "col"], ["type", "text", "placeholder", "Buscar artista...", 1, "form-control", 3, "keyup"], ["termino", ""], ["class", "m-5", 4, "ngIf"], [3, "items", 4, "ngIf"], [1, "m-5"], [3, "items"]],
+      consts: [[1, "row"], [1, "col"], ["type", "text", "placeholder", "Buscar artista...", 1, "form-control", 3, "keyup"], ["termino", ""], ["class", "mt-3", 4, "ngIf"], [3, "items", 4, "ngIf"], [1, "mt-3"], [3, "items"]],
       template: function SearchComponent_Template(rf, ctx) {
         if (rf & 1) {
           var _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
@@ -1348,7 +1348,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       },
       decls: 2,
       vars: 1,
-      consts: [[1, "card-columns", "m-5", "animated", "fadeIn"], ["class", "card puntero", 3, "click", 4, "ngFor", "ngForOf"], [1, "card", "puntero", 3, "click"], ["alt", "Card image cap", 1, "card-img-top", 3, "src"], [1, "card-body"], [1, "card-title"], [1, "card-text"], ["class", "badge badge-primary", 4, "ngFor", "ngForOf"], [1, "badge", "badge-primary"]],
+      consts: [[1, "card-columns", "mt-3", "animated", "fadeIn"], ["class", "card puntero", 3, "click", 4, "ngFor", "ngForOf"], [1, "card", "puntero", 3, "click"], ["alt", "Card image cap", 1, "card-img-top", 3, "src"], [1, "card-body"], [1, "card-title"], [1, "card-text"], ["class", "badge badge-primary", 4, "ngFor", "ngForOf"], [1, "badge", "badge-primary"]],
       template: function TarjetasComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
